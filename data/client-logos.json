@@ -1,0 +1,70 @@
+{
+  "description": "Single source of truth for client logo paths. If you rename files under /img/clients/, update logo paths here and in index.html / portfolio.html (search projectCaseStudies and additionalClients).",
+  "projectCaseStudies": [
+    {
+      "id": "lodha-residential",
+      "projectTitle": "Lodha Residential Tower",
+      "clientName": "Lodha Group",
+      "serviceHint": "Stone cladding · Thane",
+      "logo": "/img/clients/lodha.jpg",
+      "projectUrl": "/projects/lodha-residential.html"
+    },
+    {
+      "id": "oberoi-commercial",
+      "projectTitle": "Oberoi Commercial",
+      "clientName": "Oberoi Realty",
+      "serviceHint": "Glazing · Mumbai",
+      "logo": "/img/clients/oberoi.jpg",
+      "projectUrl": "/projects/oberoi-commercial.html"
+    },
+    {
+      "id": "piramal-residential",
+      "projectTitle": "Piramal Residential",
+      "clientName": "Piramal Realty",
+      "serviceHint": "Stone dry cladding",
+      "logo": "/img/clients/piramal.jpg",
+      "projectUrl": "/projects/piramal-residential.html"
+    },
+    {
+      "id": "itc-hotel-hyderabad",
+      "projectTitle": "ITC Hotel Hyderabad",
+      "clientName": "ITC Hotels",
+      "serviceHint": "Hospitality glazing",
+      "logo": "/img/clients/itc.jpg",
+      "projectUrl": "/projects/itc-hotel-hyderabad.html"
+    },
+    {
+      "id": "reliance-bkc",
+      "projectTitle": "Reliance BKC",
+      "clientName": "Reliance Industries",
+      "serviceHint": "Structural glass · BKC",
+      "logo": "/img/clients/reliance.jpg",
+      "projectUrl": "/projects/reliance-bkc.html"
+    },
+    {
+      "id": "lt-construction",
+      "projectTitle": "L&T Construction",
+      "clientName": "L&T",
+      "serviceHint": "ACP cladding",
+      "logo": "/img/clients/landt.jpg",
+      "projectUrl": "/projects/lt-construction.html"
+    }
+  ],
+  "additionalClients": [
+    { "name": "Kalpataru", "logo": "/img/clients/kalpa.jpg" },
+    { "name": "Omkar", "logo": "/img/clients/omkar.jpg" },
+    { "name": "Eco Homes", "logo": "/img/clients/eco.jpg" },
+    { "name": "Peninsula", "logo": "/img/clients/peninsulla.jpg" },
+    { "name": "Raheja", "logo": "/img/clients/raheja.jpg" },
+    { "name": "RNA", "logo": "/img/clients/rna.jpg" },
+    { "name": "Sunteck", "logo": "/img/clients/sunteck.jpg" },
+    { "name": "Suraj", "logo": "/img/clients/suraj.jpg" },
+    { "name": "Wadhwa", "logo": "/img/clients/wadhwa.jpg" },
+    { "name": "Zigma", "logo": "/img/clients/zigma.jpg" },
+    { "name": "Shree", "logo": "/img/clients/shree.jpg" },
+    { "name": "Raghu", "logo": "/img/clients/raghu.jpg" },
+    { "name": "Global", "logo": "/img/clients/global.jpg" },
+    { "name": "MSC", "logo": "/img/clients/msc.jpg" },
+    { "name": "Orbit", "logo": "/img/clients/orbit.webp" }
+  ]
+}
