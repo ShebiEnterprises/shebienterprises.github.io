@@ -1,0 +1,129 @@
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services-page .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .process-connector {
+    display: none;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .featured-projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-py: 60px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar-links {
+    display: none;
+  }
+  .navbar-cta {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+  }
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+  .blog-layout,
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+  .article-sidebar {
+    order: -1;
+  }
+  .filter-groups {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .filter-btns {
+    flex-wrap: wrap;
+  }
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+  .featured-projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-client-logos {
+    display: none;
+  }
+  .hero-badge {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+}

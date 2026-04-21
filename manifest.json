@@ -1,5 +1,7 @@
 {
- "name": "App",
+ "name": "Shebi Enterprises",
+ "short_name": "Shebi",
+ "description": "Mumbai cladding, glazing and façade contractor.",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
