@@ -42,7 +42,7 @@
     if (href === currentPath || currentPath.endsWith(href)) {
       link.classList.add("active");
     } else if (
-      normalized === "index.html" &&
+      (normalized === "index.html" || href === "/" || href === "") &&
       (currentPath === "/" || pathFile === "" || pathFile === "index.html")
     ) {
       link.classList.add("active");
