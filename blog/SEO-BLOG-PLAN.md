@@ -1,4 +1,4 @@
-# Shebi Enterprises — 50 SEO Blog Plan
+# Shebi Enterprises - 50 SEO Blog Plan
 
 **Goal:** Rank for Mumbai/India facade intent, feed Google + Gemini citations, and convert readers to `/contact/` via service backlinks.
 
@@ -73,7 +73,7 @@ Update `sitemap.xml`, `blog/index.html`, and `llms.txt` on each publish.
 
 ## The 50 posts
 
-### Phase A — High intent (1–12)
+### Phase A - High intent (1–12)
 
 | # | Title | Slug | Primary KW | Backlinks |
 |---|-------|------|------------|-----------|
@@ -90,7 +90,7 @@ Update `sitemap.xml`, `blog/index.html`, and `llms.txt` on each publish.
 | 11 | Glass Canopy Design Mistakes That Cause Leaks | `glass-canopy-leak-mistakes` | glass canopy leaks | Skylights, Fabrication |
 | 12 | Get a Facade Quote in Mumbai: Documents We Need | `facade-quote-documents-mumbai` | facade quote Mumbai | Contact, Services |
 
-### Phase B — Service depth (13–28)
+### Phase B - Service depth (13–28)
 
 | # | Title | Slug | Primary KW | Backlinks |
 |---|-------|------|------------|-----------|
@@ -111,7 +111,7 @@ Update `sitemap.xml`, `blog/index.html`, and `llms.txt` on each publish.
 | 27 | Rope Access vs BMU for Facade Cleaning | `rope-access-vs-bmu-facade-cleaning` | facade cleaning BMU | Maintenance |
 | 28 | Hybrid Facades: Stone + ACP + Glass Interfaces | `hybrid-facade-stone-acp-glass` | hybrid facade India | Stone, ACP, Glazing |
 
-### Phase C — Process & risk (29–40)
+### Phase C - Process & risk (29–40)
 
 | # | Title | Slug | Primary KW | Backlinks |
 |---|-------|------|------------|-----------|
@@ -128,7 +128,7 @@ Update `sitemap.xml`, `blog/index.html`, and `llms.txt` on each publish.
 | 39 | Sealant Failure: Causes and Repair Options | `facade-sealant-failure-repair` | facade sealant failure | Maintenance |
 | 40 | As-Built Documentation for Facade Handover | `facade-handover-documentation` | facade handover documents | Maintenance, Contact |
 
-### Phase D — Evergreen / niche (41–50)
+### Phase D - Evergreen / niche (41–50)
 
 | # | Title | Slug | Primary KW | Backlinks |
 |---|-------|------|------------|-----------|
@@ -148,11 +148,11 @@ Update `sitemap.xml`, `blog/index.html`, and `llms.txt` on each publish.
 ## Image plan
 
 ### Sitewide (done)
-- **Default OG:** `img/social/og-default.jpg` (1280×720) — wired into all page `og:image` / `twitter:image`.
+- **Default OG:** `img/social/og-default.jpg` (1280×720) - wired into all page `og:image` / `twitter:image`.
 
 ### Per blog post
 For each of the 50 posts, generate or select:
-1. **Hero** `img/blog/{slug}-hero.jpg` (1600×900) — photoreal facade/detail matching topic.
+1. **Hero** `img/blog/{slug}-hero.jpg` (1600×900) - photoreal facade/detail matching topic.
 2. **Optional mid-article** detail crop.
 3. **Social crop** can reuse hero or OG default.
 

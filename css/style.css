@@ -1658,7 +1658,7 @@ p {
   margin-bottom: 24px;
 }
 
-/* Reuses .footer-contact; footer styles white links — on light bg they must stay readable */
+/* Reuses .footer-contact; footer styles white links - on light bg they must stay readable */
 .contact-info-block .footer-contact a {
   color: var(--accent);
   text-decoration: none;
