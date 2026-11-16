@@ -1,9 +1,22 @@
+@media (max-width: 1100px) {
+  .dropdown-menu-grouped {
+    min-width: min(720px, 94vw);
+    grid-template-columns: repeat(3, minmax(140px, 1fr));
+    max-height: 70vh;
+    overflow: auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .grid-4 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .services-page .services-grid {
+  .services-page .services-grid,
+  .services-page .services-page-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .service-inner-section .container[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
   }
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
