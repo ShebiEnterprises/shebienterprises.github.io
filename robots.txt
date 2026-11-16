@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Prefer trailing-slash URLs; stub .html redirects are noindex
+Disallow: /comming%20soon/
+Disallow: /comming soon/
+
+# AI / LLM discovery summary
+# https://shebienterprises.com/llms.txt
+
+Sitemap: https://shebienterprises.com/sitemap.xml

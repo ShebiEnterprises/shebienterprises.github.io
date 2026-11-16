@@ -2062,3 +2062,25 @@ p {
   background: #0a66c2;
   color: white;
 }
+
+.seo-key-facts {
+  margin: 20px 0 8px;
+  padding: 16px 18px;
+  border-left: 3px solid var(--secondary);
+  background: rgba(13, 27, 42, 0.03);
+}
+.seo-key-facts h3 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: var(--primary);
+}
+.seo-key-facts ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.seo-key-facts li {
+  margin: 4px 0;
+  color: var(--gray);
+  line-height: 1.5;
+}
+
