@@ -37,6 +37,8 @@ GROUPS = [
             "structuralglass",
             "spiderglazing",
             "spandrel-shadow-box-glass",
+            "aluminium-windows-doors",
+            "balcony-terrace-glass-enclosures",
         ],
     ),
     (
@@ -56,6 +58,7 @@ GROUPS = [
             "facade-maintenance",
             "sealant-joint-rehabilitation-amc",
             "facade-survey-leak-diagnosis",
+            "acp-cladding-cleaning-restoration",
         ],
     ),
     (
@@ -94,6 +97,9 @@ CARD_IMG = {
     "facade-design-assist": "service-facade-design-assist.jpg",
     "facade-mockups-sample-walls": "service-facade-mockups-sample-walls.jpg",
     "fire-rated-facade-systems": "service-fire-rated-facade-systems.jpg",
+    "aluminium-windows-doors": "service-aluminium-windows-doors.jpg",
+    "balcony-terrace-glass-enclosures": "service-balcony-terrace-glass-enclosures.jpg",
+    "acp-cladding-cleaning-restoration": "service-acp-cladding-cleaning-restoration.jpg",
 }
 
 DETAIL_BY_GROUP = {
@@ -1077,6 +1083,169 @@ RAW["fire-rated-facade-systems"]["blogs"] = [
     ("/blog/acp-cladding-contractors-mumbai/", "ACP Contractors Mumbai"),
 ]
 
+S(
+    "aluminium-windows-doors",
+    title="Aluminium Windows & Doors",
+    short="aluminium windows and doors",
+    desc_meta="Aluminium window and door systems in Mumbai - thermal-break frames with facade-coordinated install by Shebi Enterprises.",
+    tagline="Aluminium window and door systems coordinated with curtain wall, ACP and stone interfaces.",
+    what=[
+        "Aluminium windows and doors sit at every weather interface on a tower. Frame type, glass build-up, thresholds and flashings decide whether floors stay dry and comfortable through Mumbai monsoon and heat.",
+        "Shebi Enterprises supplies and installs aluminium window and door packages as part of the wider envelope - so openings align with cladding grids, sill details and maintenance access.",
+    ],
+    needs=[
+        "Window and door schedule with sizes and openable types",
+        "Glass and hardware specification",
+        "Thermal / acoustic performance targets if any",
+        "Interface details with ACP, stone and curtain wall",
+        "Access strategy for upper floors",
+    ],
+    caps=[
+        "Casement, sliding and tilt-turn systems",
+        "Entrance and terrace door sets",
+        "Thermal-break frames where specified",
+        "Coordination with cladding reveals",
+        "Site survey, fixing and weather sealing",
+    ],
+    variants=[
+        ("Casement windows", "Outward / inward openers for ventilation."),
+        ("Sliding systems", "Wide openings on residences."),
+        ("Tilt-turn", "European-style multipoint hardware."),
+        ("Terrace / balcony doors", "Thresholds detailed for monsoon."),
+    ],
+    materials=[
+        ("Aluminium profiles", "System brands as specified."),
+        ("IGU / toughened glass", "Per schedule."),
+        ("Hardware & seals", "Coastal-grade where required."),
+    ],
+    faqs=[
+        ("Do you coordinate with ACP reveals?", "Yes - openings and cladding should share one grid logic."),
+        ("Thermal break required?", "Follow the project spec and comfort targets."),
+        ("Can you match curtain wall sightlines?", "Often with system selection and detail workshops."),
+        ("Monsoon thresholds?", "We detail drains and seals for driven rain."),
+        ("Retrofit windows?", "Possible after survey of existing openings."),
+    ],
+    blogs=[
+        ("/blog/curtain-wall-contractors-mumbai/", "Curtain Wall Contractors"),
+        ("/blog/igu-double-glazing-hot-climate/", "IGU for Hot Climates"),
+        ("/blog/stick-system-glazing-when/", "When Stick Glazing Makes Sense"),
+    ],
+    related=["glazingwork", "balcony-terrace-glass-enclosures", "acpcladding"],
+    cta="Specify openings with the facade, not after it",
+    cta_sub="Share the window schedule for a coordinated quote.",
+    usp="Window and door packages installed by facade teams who own the weather line.",
+    card_blurb="Aluminium window and door systems coordinated with cladding and curtain wall.",
+)
+
+S(
+    "balcony-terrace-glass-enclosures",
+    title="Balcony & Terrace Glass Enclosures",
+    short="balcony terrace glass enclosures",
+    desc_meta="Balcony and terrace glass enclosure contractors in Mumbai - sliding and framed systems by Shebi Enterprises.",
+    tagline="Glass enclosures for balconies and terraces that respect wind, drainage and railing loads.",
+    what=[
+        "Balcony and terrace glass enclosures extend usable space while controlling wind and rain. They must respect structural edge loads, railing codes, drainage and the look of the elevation from the street.",
+        "We design-install framed and sliding enclosure packages alongside glass railings and aluminium openings so the tower elevation stays coherent.",
+    ],
+    needs=[
+        "Balcony / terrace GA and railing drawings",
+        "Openable vs fixed enclosure intent",
+        "Wind and human-impact criteria",
+        "Drainage and waterproofing notes at slab edge",
+        "Society or developer approval constraints",
+    ],
+    caps=[
+        "Sliding and stacking glass systems",
+        "Framed enclosure bays",
+        "Integration with glass railings",
+        "Threshold and drain detailing",
+        "High-rise install with method statements",
+    ],
+    variants=[
+        ("Full-height sliding enclosures", "Seasonal open/close living."),
+        ("Partial wind screens", "Upper-rail glass only."),
+        ("Terrace rooms", "Larger framed enclosures."),
+        ("Retrofit enclosures", "On existing parapets after survey."),
+    ],
+    materials=[
+        ("Toughened / laminated glass", "Per safety strategy."),
+        ("Aluminium frames & tracks", "Powder-coated."),
+        ("SS fixings", "Coastal grades as needed."),
+    ],
+    faqs=[
+        ("Will society allow enclosures?", "Many require prior approval - we can support drawings for submission."),
+        ("Does it affect facade drainage?", "Thresholds and weep paths must be designed, not improvised."),
+        ("Can it match railing glass?", "Yes - hardware and glass families can align."),
+        ("Wind noise?", "System choice and seals matter on high floors."),
+        ("Maintenance?", "Tracks and seals need periodic cleaning - include in AMC if desired."),
+    ],
+    blogs=[
+        ("/blog/office-lobby-glass-spec/", "Lobby Glass Spec Tips"),
+        ("/blog/point-fixed-glass-hardware/", "Point-Fixed Hardware"),
+        ("/blog/residential-podium-cladding/", "Residential Podium Cladding"),
+    ],
+    related=["glass-railings-balustrades", "aluminium-windows-doors", "glazingwork"],
+    cta="Enclose balconies without fighting the elevation",
+    cta_sub="Share balcony drawings for an enclosure package review.",
+    usp="Enclosure systems detailed with railing, drainage and facade finish in mind.",
+    card_blurb="Sliding and framed glass enclosures for residential balconies and terraces.",
+)
+
+S(
+    "acp-cladding-cleaning-restoration",
+    title="ACP Cladding Cleaning & Restoration",
+    short="ACP cladding cleaning restoration",
+    desc_meta="ACP cladding cleaning and restoration in Mumbai - panel wash, polish and local repair by Shebi Enterprises.",
+    tagline="Scheduled ACP cleaning, stain removal and local panel restoration for societies and commercial towers.",
+    what=[
+        "ACP elevations lose gloss and pick up monsoon stains, sealant residue and pollution film. Cleaning alone is not enough when joints have failed or panels are dented - restoration pairs wash cycles with sealant and panel repairs.",
+        "Shebi Enterprises runs ACP cleaning and restoration programmes using BMU or rope access, with the same crews who understand FR cores, joint design and colour matching.",
+    ],
+    needs=[
+        "Elevation photos and priority faces",
+        "Access method (BMU tracks vs rope access)",
+        "Known stains, dents or open joints",
+        "Colour / finish notes for replacement panels",
+        "Occupied-building work windows",
+    ],
+    caps=[
+        "Soft-wash and panel-safe cleaning",
+        "Sealant residue and staining treatment",
+        "Local panel replacement",
+        "Joint touch-up and reseal",
+        "Photo reports before / after",
+    ],
+    variants=[
+        ("Annual cleaning cycles", "Whole-tower or priority faces."),
+        ("Monsoon recovery cleans", "Post-storm stain programmes."),
+        ("Panel restoration", "Dents, scratches, replacements."),
+        ("Combined AMC", "Cleaning + sealant + inspection."),
+    ],
+    materials=[
+        ("Panel-safe cleaners", "Matched to coating type."),
+        ("Colour-matched sealants", "For joint touch-ups."),
+        ("Replacement ACP", "Same brand / lot where possible."),
+    ],
+    faqs=[
+        ("Will pressure washing damage ACP?", "Aggressive pressure can harm coatings - we use controlled methods."),
+        ("Can faded colour be restored?", "Cleaning helps; severe UV fade may need panel replacement."),
+        ("Do you clean glass too?", "Yes as part of facade maintenance packages."),
+        ("FR panels - any special care?", "Yes - no solvents that attack coatings; document FR zones."),
+        ("Society AMC?", "We can combine cleaning with sealant and inspection contracts."),
+    ],
+    blogs=[
+        ("/blog/facade-maintenance-guide/", "Facade Maintenance Guide"),
+        ("/blog/acp-colour-fading-uv-india/", "ACP Colour Fading and UV"),
+        ("/blog/rope-access-vs-bmu-facade-cleaning/", "Rope Access vs BMU"),
+        ("/blog/acp-joint-design-sealants/", "ACP Joint Sealants"),
+    ],
+    related=["facade-maintenance", "sealant-joint-rehabilitation-amc", "acpcladding"],
+    cta="Restore ACP elevations without guessing the coating",
+    cta_sub="Request a cleaning and restoration survey.",
+    usp="ACP cleaning by facade installers who also reseal and replace panels.",
+    card_blurb="ACP washing, stain treatment and local panel restoration for towers and societies.",
+)
+
 
 def title_of(slug: str) -> str:
     return RAW[slug]["title"]
@@ -1303,16 +1472,6 @@ def render_service(slug: str) -> None:
           <p data-aos="fade-up" data-aos-delay="100">{esc(d['tagline'])}</p>
         </div>
       </section>
-
-      <aside class="seo-key-facts container" style="max-width: 1100px; margin: 8px auto 28px;" aria-label="Key facts">
-        <h3>Key facts</h3>
-        <ul>
-            <li>Contractor: Shebi Enterprises, Mumbai (est. 2005)</li>
-            <li>Service: {esc(title)} ({esc(g)})</li>
-            <li>Typical clients: developers, architects, general contractors and societies</li>
-            <li>Contact: info@shebienterprises.com · +91 9321598252 · +91 7738479381</li>
-        </ul>
-      </aside>
 
       <section class="service-inner-section">
         <div class="container why-grid">
@@ -1603,17 +1762,10 @@ def build_services_hub():
     # Read existing hub and replace services section
     path = ROOT / "services" / "index.html"
     text = path.read_text(encoding="utf-8")
-    # Update facts
+    # Remove hub key-facts block
     text = re.sub(
-        r'(<aside class="seo-key-facts"[\s\S]*?</aside>)',
-        '''<aside class="seo-key-facts container" style="max-width: 1100px; margin: 8px auto 28px;" aria-label="Key facts">
-        <h3>Services facts</h3>
-        <ul>
-            <li>Shebi Enterprises provides cladding, glazing, metalwork, lifecycle and design-assist packages in Mumbai</li>
-            <li>24 specialised services across stone, ACP, curtain wall, fabrication, maintenance and FR systems</li>
-            <li>Request a quote: info@shebienterprises.com</li>
-        </ul>
-      </aside>''',
+        r'\s*<aside class="seo-key-facts[\s\S]*?</aside>\s*',
+        "\n\n",
         text,
         count=1,
     )
@@ -1641,7 +1793,7 @@ def build_services_hub():
 
 
 def update_home_services():
-    """Curated 9 cards on home + view all."""
+    """Curated 8 cards on home + view all (FR systems only on /services/)."""
     curated = [
         "acpcladding",
         "glazingwork",
@@ -1651,7 +1803,6 @@ def update_home_services():
         "retrofit-recladding",
         "canopy-dropoff-packages",
         "facade-maintenance",
-        "fire-rated-facade-systems",
     ]
     cards = ['        <div class="services-grid">']
     for i, slug in enumerate(curated):
@@ -1717,7 +1868,7 @@ def update_sitemap_llms():
 
 
 def main():
-    assert len(RAW) == 24, f"expected 24 services, got {len(RAW)}"
+    assert len(RAW) == 27, f"expected 27 services, got {len(RAW)}"
     sync_images()
     for slug in RAW:
         assert slug in CARD_IMG, slug
