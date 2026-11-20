@@ -1716,7 +1716,7 @@ def update_sitewide_nav_footer():
         text = path.read_text(encoding="utf-8")
         orig = text
         text, n1 = dropdown_block_re.subn(
-            dropdown + r"\n\1</div>\n\2<a href=\"/portfolio/\"",
+            dropdown + "\n\\1</div>\n\\2<a href=\"/portfolio/\"",
             text,
             count=1,
         )
